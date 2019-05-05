@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="NinjectModules\ShippingServiceTestModule.cs" />
     <Compile Include="TestShippingServiceProvider.cs" />
+    <Compile Include="UnitTest1.cs" />
     <Compile Include="UnitTestShippingService.cs" />
     <Compile Include="UnitTestDeliveryService.cs" />
     <Compile Include="UnitTestShippingVehicle.cs" />

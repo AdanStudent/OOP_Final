@@ -12,7 +12,7 @@ namespace ClassLibraryFinal
 
         public uint ShippingDistance
         {
-            get => throw new NotImplementedException();
+            get { return this.getShippingDistance(); }
         }
 
         protected uint getShippingDistance()
@@ -22,7 +22,7 @@ namespace ClassLibraryFinal
         }
         public uint NumRefuels
         {
-            get => throw new NotImplementedException();
+            get { return this.getNumRefuels(); }
         }
 
         private uint getNumRefuels()
@@ -36,7 +36,9 @@ namespace ClassLibraryFinal
 
         public DefaultShippingService(IDeliveryService Service,  List<IProduct> Products, IShippingLocation Location)
         {
-            
+            this.DeliveryService = Service;
+            this.Products = Products;
+            this.ShippingLocation = Location;
         }
 
         public double ShippingCost()

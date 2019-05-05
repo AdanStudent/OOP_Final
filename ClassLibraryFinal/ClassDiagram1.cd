@@ -4,7 +4,7 @@
     <Position X="1.75" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAACAAAAAAAAAAAAAAIAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
-      <FileName>MotorVehicle.cs</FileName>
+      <FileName>Vehicles\MotorVehicle.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
@@ -12,7 +12,7 @@
     <Position X="3" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAA=</HashCode>
-      <FileName>DeliveryService.cs</FileName>
+      <FileName>ShippingService\DeliveryService.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
@@ -20,35 +20,35 @@
     <Position X="3" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>UnclesTruck.cs</FileName>
+      <FileName>Vehicles\UnclesTruck.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClassLibraryFinal.AirExpress">
     <Position X="5.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>AirExpress.cs</FileName>
+      <FileName>ShippingService\AirExpress.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClassLibraryFinal.SnailService">
     <Position X="0.75" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>SnailService.cs</FileName>
+      <FileName>ShippingService\SnailService.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClassLibraryFinal.Snail">
     <Position X="5.5" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Snail.cs</FileName>
+      <FileName>Vehicles\Snail.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClassLibraryFinal.ShippingSnail">
     <Position X="7.25" Y="8.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAACAAAAAAAAAAAAAAIAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
-      <FileName>ShippingSnail.cs</FileName>
+      <FileName>Vehicles\ShippingSnail.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
@@ -56,21 +56,21 @@
     <Position X="2.75" Y="8.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Truck.cs</FileName>
+      <FileName>Vehicles\Truck.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClassLibraryFinal.Plane">
     <Position X="0.5" Y="8.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Plane.cs</FileName>
+      <FileName>Vehicles\Plane.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClassLibraryFinal.ShippingServiceProvider">
     <Position X="5.75" Y="1" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEI=</HashCode>
-      <FileName>ShippingServiceProvider.cs</FileName>
+      <FileName>ShippingService\ShippingServiceProvider.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
@@ -85,22 +85,21 @@
     <Position X="8.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
-      <FileName>IDeliveryService.cs</FileName>
+      <FileName>ShippingService\IDeliveryService.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="ClassLibraryFinal.IShippingService">
     <Position X="12.25" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAgAAAACEAAAAAAAA=</HashCode>
-      <FileName>IShippingService.cs</FileName>
-      <NewMemberFileName>IShippingVehicle.cs</NewMemberFileName>
+      <FileName>ShippingService\IShippingService.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="ClassLibraryFinal.IShippingVehicle">
     <Position X="10" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAACAAAAAAAAAAAAAAIAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
-      <FileName>IShippingVehicle.cs</FileName>
+      <FileName>ShippingService\IShippingVehicle.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="ClassLibraryFinal.IProduct">

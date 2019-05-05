@@ -27,7 +27,6 @@ namespace UnitTestFinal.NinjectModules
             FakeProductList = new FakeProductList() { moqProduct.Object }; 
         }
 
-
         public override void Load()
         {
             this.Bind<List<IProduct>>().To<FakeProductList>();

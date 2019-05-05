@@ -18,9 +18,9 @@ namespace ClassLibraryFinal.NinjectModules
 
         public override void Load()
         {
-            this.Bind<IShippingVehicle>().To<Truck>();
             this.Bind<IDeliveryService>().To<UnclesTruck>();
             this.Bind<IShippingService>().To<DefaultShippingService>();
+            this.Bind<IShippingVehicle>().To<Truck>();
         }
     }
 }

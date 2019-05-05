@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestFinal", "UnitTestFi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppShipping", "ConsoleAppShipping\ConsoleAppShipping.csproj", "{EC1A745E-C407-4DAB-9CFE-31A14E86D646}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfShipping", "WpfShipping\WpfShipping.csproj", "{727AB6B0-30A6-4820-B228-D0393F8ADEAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EC1A745E-C407-4DAB-9CFE-31A14E86D646}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC1A745E-C407-4DAB-9CFE-31A14E86D646}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC1A745E-C407-4DAB-9CFE-31A14E86D646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727AB6B0-30A6-4820-B228-D0393F8ADEAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727AB6B0-30A6-4820-B228-D0393F8ADEAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727AB6B0-30A6-4820-B228-D0393F8ADEAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727AB6B0-30A6-4820-B228-D0393F8ADEAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

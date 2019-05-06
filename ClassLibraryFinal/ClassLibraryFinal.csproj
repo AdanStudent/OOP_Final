@@ -68,6 +68,7 @@
     <Compile Include="ShippingService\IShippingLocation.cs" />
     <Compile Include="ShippingService\IShippingService.cs" />
     <Compile Include="ShippingService\IShippingVehicle.cs" />
+    <Compile Include="ShippingService\ShippingLocation.cs" />
     <Compile Include="Vehicles\MotorVehicle.cs" />
     <Compile Include="NinjectModules\ShippingServiceModule.cs" />
     <Compile Include="Vehicles\Plane.cs" />

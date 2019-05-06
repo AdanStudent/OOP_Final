@@ -28,7 +28,7 @@ namespace WpfShipping.ViewModels
                 if (this.startZip != value)
                 {
                     startZip = value;
-                    RaisePropertyChanged("CurrentZip");
+                    RaisePropertyChanged("StartZip");
                 }
             }
         }
@@ -37,10 +37,25 @@ namespace WpfShipping.ViewModels
         public uint EndZip
         {
             get { return endZip; }
-            set { endZip = value; }
+            set
+            {
+                if (this.endZip != value)
+                {
+                    endZip = value;
+                    RaisePropertyChanged("EndZip");
+                }
+            }
         }
 
-        public string ShipDistance{ get; set; }
+        public string ShipDistance
+        {
+            get { return $"{this.shippingService.ShippingDistance}"; }
+        }
+
+        public string Refuels
+        {
+            get { return $"{this.shippingService.NumRefuels}"; }
+        }
 
         public DeliveryServiceVM()
         {

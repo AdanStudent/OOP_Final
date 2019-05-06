@@ -9,7 +9,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <StackPanel>
-            <views:DSService x:Name="Delivery_ShippingView" Loaded="ChangeViewControl_Loaded" Height="418"/>
+            <views:DSService x:Name="DeliveryShippingView" Loaded="ChangeViewControl_Loaded" Height="418"/>
         </StackPanel>
     </Grid>
 </Window>

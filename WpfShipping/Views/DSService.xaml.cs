@@ -24,5 +24,14 @@ namespace WpfShipping.Views
         {
             InitializeComponent();
         }
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Refuels_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

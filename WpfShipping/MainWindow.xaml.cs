@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfShipping.ViewModels;
 
 namespace WpfShipping
 {
@@ -25,8 +26,12 @@ namespace WpfShipping
             InitializeComponent();
         }
 
-        public void ChangeViewControl_Loaded()
+        public void ChangeViewControl_Loaded(object sender, RoutedEventArgs e) //ChangeViewControl_Loaded
         {
+            DeliveryServiceVM viewControl = new DeliveryServiceVM();
+            this.DataContext = viewControl;
+
+            DeliveryShippingView.DataContext = viewControl;
 
         }
     }

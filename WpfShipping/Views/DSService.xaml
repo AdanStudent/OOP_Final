@@ -8,19 +8,19 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Height="22" Margin="88,68,0,0" TextWrapping="Wrap" Text="Start Zip" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="StartZip" HorizontalAlignment="Left" Height="23" Margin="88,90,0,0" TextWrapping="Wrap" Text="{Binding StartZip, Mode=OneWay}" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="StartZip" HorizontalAlignment="Left" Height="23" Margin="88,90,0,0" TextWrapping="Wrap" Text="{Binding StartZip, Mode=TwoWay}" VerticalAlignment="Top" Width="120"/>
         
         <TextBlock HorizontalAlignment="Left" Margin="277,177,0,0" TextWrapping="Wrap" Text="Shipping Distance" VerticalAlignment="Top"/>
         <TextBox x:Name="ShipDistance" HorizontalAlignment="Left" Height="23" Margin="277,193,0,0" TextWrapping="Wrap" Text="{Binding ShipDistance, Mode=OneWay}" VerticalAlignment="Top" Width="120"/>
-        
-        <Button Content="Calculate" HorizontalAlignment="Left" Margin="617,90,0,0" VerticalAlignment="Top" Width="74"/>
+
+        <Button Command="{Binding updateService}" Content="Calculate" HorizontalAlignment="Left" Margin="617,90,0,0" VerticalAlignment="Top" Width="74"/>
         
         <TextBlock HorizontalAlignment="Left" Margin="88,172,0,0" TextWrapping="Wrap" Text="# of Refuels" VerticalAlignment="Top"/>
         <TextBox x:Name="Refuels" HorizontalAlignment="Left" Height="23" Margin="88,193,0,0" TextWrapping="Wrap" Text="{Binding Refuels, Mode=OneWay}" VerticalAlignment="Top" Width="120" TextChanged="Refuels_TextChanged"/>
 
         <ComboBox ItemsSource="{Binding DeliveryServices}" SelectedItem="{Binding SelectedService}" x:Name="DeliveryServices" HorizontalAlignment="Left" Margin="455,90,0,0" VerticalAlignment="Top" Width="120"/>
         <TextBlock HorizontalAlignment="Left" Height="22" Margin="277,68,0,0" TextWrapping="Wrap" Text="Destination Zip" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="EndZip" HorizontalAlignment="Left" Height="23" Margin="277,90,0,0" TextWrapping="Wrap" Text="{Binding EndZip, Mode=OneWay}" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="EndZip" HorizontalAlignment="Left" Height="23" Margin="277,90,0,0" TextWrapping="Wrap" Text="{Binding EndZip, Mode=TwoWay}" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
 
     </Grid>
 </UserControl>

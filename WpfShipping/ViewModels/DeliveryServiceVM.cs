@@ -60,7 +60,6 @@ namespace WpfShipping.ViewModels
         public DeliveryServiceVM()
         {
             this.updateService = new UpdateServiceCommand(ExecuteCommandUpdateDelievryService, CanExecuteCommand);
-            NewDefaultShippingService();
 
             this.DeliveryServices = new ObservableCollection<IDeliveryService>()
             {
@@ -69,7 +68,11 @@ namespace WpfShipping.ViewModels
                 new AirExpress(new Plane())
             };
 
+            this.startZip = 1;
+            this.endZip = 2;
+
             this.SelectedService = this.DeliveryServices[0];
+            NewDefaultShippingService();
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
